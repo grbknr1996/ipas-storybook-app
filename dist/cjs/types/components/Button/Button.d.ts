@@ -1,5 +1,6 @@
-type Props = {
-    text: string;
-};
-declare const Button: React.FC<Props>;
+import "./Button.css";
+export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+    variant?: "primary" | "secondary";
+}
+declare const Button: React.FC<ButtonProps>;
 export default Button;
