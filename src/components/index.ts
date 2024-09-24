@@ -1,2 +1,2 @@
-export { default as Button } from "./Button";
-export { default as UserTable } from "./UserTable";
+export * from "./Button";
+export * from "./UserTable";

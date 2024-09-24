@@ -22,7 +22,7 @@ export default [
     plugins: [resolve(), commonjs(), typescript(), postcss()],
   },
   {
-    input: "src/index.ts",
+    input: "src/index.ts", // This should cover all type exports
     output: {
       file: "dist/index.d.ts",
       format: "es",
